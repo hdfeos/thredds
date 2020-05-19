@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog name="S3 Test Catalog"
+  xmlns="http://www.unidata.ucar.edu/namespaces/thredds/InvCatalog/v1.0">
+
+  <datasetRoot path="s3-test" location="s3://basicterrafusion" />
+
+  <dataset name="Test Basic TerraFusion S3" ID="testS3Grid"
+    urlPath="s3-test/TERRA_BF_L1B_O53557_20100112014327_F000_V001.h5"
+    dataType="Grid"/>
+
+</catalog>
